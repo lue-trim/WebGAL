@@ -5,12 +5,12 @@
  * also you need to code the name of it show.
  */
 
-import en from '@/translations/en';
-import jp from '@/translations/jp';
+// import en from '@/translations/en';
+// import jp from '@/translations/jp';
 import zhCn from '@/translations/zh-cn';
-import fr from '@/translations/fr';
-import de from '@/translations/de';
-import zhTw from '@/translations/zh-tw';
+// import fr from '@/translations/fr';
+// import de from '@/translations/de';
+// import zhTw from '@/translations/zh-tw';
 /*
   Import your translation configs here;
   example:
@@ -19,29 +19,29 @@ import zhTw from '@/translations/zh-tw';
 
 export enum language {
   zhCn,
-  en,
-  jp,
-  fr,
-  de,
-  zhTw,
+  // en,
+  // jp,
+  // fr,
+  // de,
+  // zhTw,
 }
 
 const languages: Record<string, string> = {
   zhCn: '简体中文',
-  en: 'English',
-  jp: '日本語',
-  fr: 'Français',
-  de: 'Deutsch',
-  zhTw: '繁體中文',
+  // en: 'English',
+  // jp: '日本語',
+  // fr: 'Français',
+  // de: 'Deutsch',
+  // zhTw: '繁體中文',
 };
 
 export const i18nTranslationResources: Record<string, { translation: Record<string, any> }> = {
-  en: { translation: en },
+  // en: { translation: en },
   zhCn: { translation: zhCn },
-  jp: { translation: jp },
-  fr: { translation: fr },
-  de: { translation: de },
-  zhTw: { translation: zhTw },
+  // jp: { translation: jp },
+  // fr: { translation: fr },
+  // de: { translation: de },
+  // zhTw: { translation: zhTw },
 };
 
 export const defaultLanguage: language = language.zhCn;

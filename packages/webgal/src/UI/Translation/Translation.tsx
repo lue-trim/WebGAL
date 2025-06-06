@@ -26,21 +26,21 @@ export default function Translation() {
           case 'zh_CN':
             setLang(language.zhCn);
             break;
-          case 'zh_TW':
-            setLang(language.zhTw);
-            break;
-          case 'en':
-            setLang(language.en);
-            break;
-          case 'ja':
-            setLang(language.jp);
-            break;
-          case 'fr':
-            setLang(language.fr);
-            break;
-          case 'de':
-            setLang(language.de);
-            break;
+          // case 'zh_TW':
+          //   setLang(language.zhTw);
+          //   break;
+          // case 'en':
+          //   setLang(language.en);
+          //   break;
+          // case 'ja':
+          //   setLang(language.jp);
+          //   break;
+          // case 'fr':
+          //   setLang(language.fr);
+          //   break;
+          // case 'de':
+          //   setLang(language.de);
+          //   break;
           default:
             setLang(language.zhCn);
             break;

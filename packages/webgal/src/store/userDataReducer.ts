@@ -23,15 +23,15 @@ import { ISetGameVar } from './stageInterface';
 
 const initialOptionSet: IOptionData = {
   slPage: 1,
-  volumeMain: 100, // 主音量
-  textSpeed: 50, // 文字速度
+  volumeMain: 50, // 主音量
+  textSpeed: 90, // 文字速度
   autoSpeed: 50, // 自动播放速度
   textSize: textSize.medium,
   vocalVolume: 100, // 语音音量
   bgmVolume: 25, // 背景音乐音量
   seVolume: 100, // 音效音量
   uiSeVolume: 50, // UI音效音量
-  textboxFont: textFont.song,
+  textboxFont: textFont.yuanhei,
   textboxOpacity: 75,
   language: language.zhCn,
   voiceInterruption: voiceOption.yes,

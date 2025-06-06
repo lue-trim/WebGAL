@@ -89,9 +89,10 @@ const zhCn = {
             textFont: {
               title: '文本字体',
               options: {
-                siYuanSimSun: '思源宋体',
-                SimHei: '黑体',
-                lxgw: '霞鹜文楷',
+                JJ: '俊俊体',
+                SJ: '什锦黑',
+                YH: '圆黑',
+                WebgalUI: '方圆',
               },
             },
             textboxOpacity: {

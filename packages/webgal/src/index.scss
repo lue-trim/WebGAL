@@ -3,21 +3,27 @@
 @import "Core/util/constants";
 
 @font-face {
-  font-family: "思源宋体";
-  /*noinspection CssUnknownTarget*/
-  src: url("assets/fonts/SourceHanSerifCN-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "LXGW";
-  /*noinspection CssUnknownTarget*/
-  src: url("assets/fonts/LXGWWenKai-Regular.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "WebgalUI";
   /*noinspection CssUnknownTarget*/
-  src: url("assets/fonts/OPPOSans-R.ttf") format("truetype");
+  src: url("assets/fonts/AlimamaFangYuanTiVF-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "YH";
+  /*noinspection CssUnknownTarget*/
+  src: url("assets/fonts/ChillRoundGothic_Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "JJ";
+  /*noinspection CssUnknownTarget*/
+  src: url("assets/fonts/JUNJUN.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "SJ";
+  /*noinspection CssUnknownTarget*/
+  src: url("assets/fonts/MaokenAssortedSansLite-Lite.ttf") format("truetype");
 }
 
 .StartButton {

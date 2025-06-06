@@ -19,9 +19,10 @@ export enum textSize {
 }
 
 export enum textFont {
-  song,
-  hei,
-  lxgw,
+  // junjun,
+  // shijin,
+  fangyuan,
+  yuanhei,
 }
 
 export enum voiceOption {

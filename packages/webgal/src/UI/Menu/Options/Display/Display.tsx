@@ -50,18 +50,22 @@ export function Display() {
       </NormalOption>
       <NormalOption key="textFont" title={t('textFont.title')}>
         <NormalButton
-          textList={t('textFont.options.siYuanSimSun', 'textFont.options.SimHei', 'textFont.options.lxgw')}
+          textList={t('textFont.options.YH', 'textFont.options.WebgalUI')} //'textFont.options.JJ', 'textFont.options.SJ', 
           functionList={[
+            // () => {
+            //   dispatch(setOptionData({ key: 'textboxFont', value: textFont.junjun }));
+            //   setStorage();
+            // },
+            // () => {
+            //   dispatch(setOptionData({ key: 'textboxFont', value: textFont.shijin }));
+            //   setStorage();
+            // },
             () => {
-              dispatch(setOptionData({ key: 'textboxFont', value: textFont.song }));
+              dispatch(setOptionData({ key: 'textboxFont', value: textFont.yuanhei }));
               setStorage();
             },
             () => {
-              dispatch(setOptionData({ key: 'textboxFont', value: textFont.hei }));
-              setStorage();
-            },
-            () => {
-              dispatch(setOptionData({ key: 'textboxFont', value: textFont.lxgw }));
+              dispatch(setOptionData({ key: 'textboxFont', value: textFont.fangyuan }));
               setStorage();
             },
           ]}
