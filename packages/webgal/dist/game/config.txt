@@ -1,0 +1,7 @@
+Game_name:恶魔的记忆;
+Game_key:0f87dstRg;
+Title_img:WebGAL_New_Enter_Image.png;
+Title_bgm:s_Title.mp3;
+Game_Logo:WebGalEnter.png;
+Enable_Appreciation:true;
+Default_Language:zh_CN;
