@@ -31,7 +31,7 @@ const initialOptionSet: IOptionData = {
   bgmVolume: 25, // 背景音乐音量
   seVolume: 100, // 音效音量
   uiSeVolume: 50, // UI音效音量
-  textboxFont: textFont.yuanhei,
+  textboxFont: textFont.fangyuan,
   textboxOpacity: 75,
   language: language.zhCn,
   voiceInterruption: voiceOption.yes,

@@ -14,17 +14,17 @@
   src: url("assets/fonts/ChillRoundGothic_Medium.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "JJ";
-  /*noinspection CssUnknownTarget*/
-  src: url("assets/fonts/JUNJUN.otf") format("truetype");
-}
+// @font-face {
+//   font-family: "JJ";
+//   /*noinspection CssUnknownTarget*/
+//   src: url("assets/fonts/JUNJUN.otf") format("truetype");
+// }
 
-@font-face {
-  font-family: "SJ";
-  /*noinspection CssUnknownTarget*/
-  src: url("assets/fonts/MaokenAssortedSansLite-Lite.ttf") format("truetype");
-}
+// @font-face {
+//   font-family: "SJ";
+//   /*noinspection CssUnknownTarget*/
+//   src: url("assets/fonts/MaokenAssortedSansLite-Lite.ttf") format("truetype");
+// }
 
 .StartButton {
   animation: StartButton_blink 4s infinite;
